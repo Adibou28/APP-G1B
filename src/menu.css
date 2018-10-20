@@ -1,0 +1,44 @@
+body{
+	font-family: Montserrat, medium;
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+}
+
+nav {
+	position: absolute;
+	right: 22px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	transform:skew(49deg);
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+	border-right: 4px solid #FFFFFF;
+	background-color: #F4A000;
+}
+
+.compte{
+	border-right: 0px solid #FFFFFF;
+}
+
+nav li:hover{
+	background-color: #005FA1;
+}
+
+nav a{
+	display: block;
+	padding: 9px 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+	transform:skew(-49deg);
+
+}
+
+
+
